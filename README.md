@@ -126,7 +126,7 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - 📧 Email: [rabihjabrz2@gmail.com](mailto:rabihjabrz2@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/rabih-jabr-888720190](https://linkedin.com/in/rabih-jabr-888720190/)
 - 📱 Phone: +961 76 372 663
-- 🌐 Portfolio: [Your Portfolio URL](#)
+- 🌐 Portfolio: [https://my-portfolio-sooty-theta-25.vercel.app/](#)
 
 ---
 
