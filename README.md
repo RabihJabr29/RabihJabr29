@@ -56,7 +56,7 @@ I'm a **Full Stack Software Engineer** with **4+ years** of experience deliverin
 
 ## 🌟 Featured Projects
 
-### 🎉 [JoyDayz](http://83.228.217.28:3000/) - Event Discovery Platform
+### 🎉 [JoyDayz](https://joydayz-dev.kataflow.ch/) - Event Discovery Platform
 > Full-stack platform with Next.js 16, React 19 Server Components, and Spring Boot
 
 - 🔐 Implemented JWT authentication with Spring Boot backend
