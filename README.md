@@ -81,6 +81,22 @@ it all into production.
 
 ## Featured Projects
 
+### 📚 Documentation RAG Platform *(internal, built at Murex)*
+
+> A Python retrieval system over a large internal wiki, letting engineering teams ask questions
+> against their own documentation.
+
+- Scheduled index refresh rather than live indexing — the design decision that keeps queries fast
+  and inference cost low
+- Pages are scored for relevance and freshness before they reach the index, so stale documentation
+  doesn't dilute retrieval
+- Runs on locally hosted open-weight models (Llama) as well as hosted APIs, cutting inference cost
+  while holding retrieval quality
+
+**Tech:** Python · RAG · Vector Search · Embeddings · Llama
+
+---
+
 ### 🎉 [JoyDayz](https://joydayz-dev.kataflow.ch/) — Event Discovery Platform
 
 > Designing and building a full-stack event platform end-to-end, solo.
@@ -112,22 +128,6 @@ it all into production.
 
 ---
 
-### 🤖 Multi-Agent Orchestrator — AI Agent Pipeline *(private)*
-
-> A Python CLI that coordinates five specialised AI agents — requirements, architect, builder,
-> tester, reviewer — into one pipeline that takes a spec through to reviewed code.
-
-- Provider-agnostic: one interface, with implementations for Claude, OpenAI, Gemini, Groq, and
-  local Ollama — so each agent runs on whichever model suits its role and budget
-- Agent roles, prompts, and provider assignments are declarative (YAML), so the pipeline is
-  reconfigurable without touching orchestration code
-- Feedback loop re-runs the builder when the reviewer flags critical issues, instead of emitting
-  known-bad output
-
-**Tech:** Python · Claude · OpenAI · Gemini · Groq · Ollama · YAML
-
----
-
 <details>
 <summary><b>Earlier work</b></summary>
 
@@ -141,9 +141,6 @@ voting, view tracking, a reputation system, and prototyped AI-generated answer d
 delivery, progress tracking, and an admin dashboard for content and analytics.
 `Angular` `Node.js` `Express` `MongoDB` `TypeScript`
 
-**LebaPrice** *(private)* — Scrapes five Lebanese electronics retailers on a schedule and compares
-live prices per product, with category browsing, search, and side-by-side comparison.
-`Next.js 16` `TypeScript` `MongoDB` `Mongoose` `Cheerio`
 
 </details>
 
@@ -158,6 +155,8 @@ live prices per product, with category browsing, search, and side-by-side compar
 - Automate the deployment lifecycle with Ansible, Linux, and Bash across heterogeneous environments
 
 **Senior Software Engineer & Scrum Master @ Murex** — *Jun 2021 – May 2026*
+- Built a **documentation RAG platform** over the internal wiki, making locally hosted models a
+  viable option and cutting AI inference cost
 - Designed and deployed a global performance-metrics feature used by **3 major clients**
 - Built internal tooling used daily by **~50 QAs and PMs**
 - E2E test suites that cut regression incidents to **under 1%**
