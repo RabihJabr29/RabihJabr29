@@ -16,17 +16,17 @@
 
 ## About
 
-I build the product **and** the platform it runs on — React and Next.js on the front, Node.js
+I build the product **and** the platform it runs on. React and Next.js on the front, Node.js
 and Java/Spring Boot on the back, PostgreSQL underneath, and the deployment pipeline that gets
 it all into production.
 
 - 🛠️ I own an internal deployment platform that configures and ships **50+ applications** to
   client tenants across Azure, private cloud, and on-premise environments
-- 📡 Built an automated monitoring service for scheduled jobs, wired into Jira — replaced manual
+- 📡 Built an automated monitoring service for scheduled jobs, wired into Jira. It replaced manual
   watching and cut wasted compute
 - 🚀 Shipped **two products end-to-end as the only developer**: a full-stack event platform and
   an offline desktop app running a real manufacturing business
-- 🤖 I use **AI aggressively** — Claude Code and Copilot are daily drivers, not novelties. They're
+- 🤖 I use **AI aggressively**. Claude Code and Copilot are daily drivers, not novelties. They're
   how I went from zero Ansible/Linux to owning production deployment tooling in weeks
 - ✍️ I care about documentation that **both people and AI agents** can work from
 
@@ -86,8 +86,8 @@ it all into production.
 > A Python retrieval system over a large internal wiki, letting engineering teams ask questions
 > against their own documentation.
 
-- Scheduled index refresh rather than live indexing — the design decision that keeps queries fast
-  and inference cost low
+- Scheduled index refresh rather than live indexing, which is what keeps queries fast and
+  inference cost low
 - Pages are scored for relevance and freshness before they reach the index, so stale documentation
   doesn't dilute retrieval
 - Runs on locally hosted open-weight models (Llama) as well as hosted APIs, cutting inference cost
@@ -97,7 +97,7 @@ it all into production.
 
 ---
 
-### 🎉 [JoyDayz](https://joydayz-dev.kataflow.ch/) — Event Discovery Platform
+### 🎉 [JoyDayz](https://joydayz-dev.kataflow.ch/) | Event Discovery Platform
 
 > Designing and building a full-stack event platform end-to-end, solo.
 
@@ -105,20 +105,20 @@ it all into production.
 - Spring Boot REST backend with JPA persistence and JWT authentication
 - PostgreSQL schema powering the calendar, bookmarking, messaging, and notification systems
 - Infinite-scroll feed with CDN-backed image optimization and public-URL sharing
-- Built with heavy Claude Code assistance — the reason one person can cover the whole stack
+- Built with heavy Claude Code assistance, which is the reason one person can cover the whole stack
 
 **Tech:** Next.js 16 · React 19 · TypeScript · Spring Boot · PostgreSQL · JPA · JWT · Tailwind CSS
 
 ---
 
-### 🏭 Factory Management System — Offline Desktop App *(freelance, private)*
+### 🏭 Factory Management System | Offline Desktop App *(freelance, private)*
 
 > A production desktop app I designed, built, and delivered single-handedly for a real
 > manufacturing client. Fully offline, single operator, no server to fall back on.
 
 - Customer intake, production yield calculation, invoicing, inventory, and financial reporting
 - Relational schema and migration strategy on SQLite, with unit tests covering the money,
-  allocation, and stock logic — including regression tests for real production bugs
+  allocation, and stock logic, including regression tests for bugs that had already shipped
 - Machine-bound license verification (HMAC) and an automated backup pipeline
 - Bilingual UI (Arabic RTL / English LTR) with custom HTML-to-PDF invoice printing
 - Documentation maintained as an **agent-readable knowledge base** of domain rules and
@@ -133,11 +133,11 @@ it all into production.
 
 <br>
 
-**[DevFlow](https://github.com/RabihJabr29/Modern-StackOverflow)** — StackOverflow clone with
+**[DevFlow](https://github.com/RabihJabr29/Modern-StackOverflow)**: StackOverflow clone with
 voting, view tracking, a reputation system, and prototyped AI-generated answer drafts.
 `Next.js` `React` `MongoDB` `Tailwind CSS`
 
-**[Educate](https://github.com/RabihJabr29/Educate-Frontend)** — E-learning platform with course
+**[Educate](https://github.com/RabihJabr29/Educate-Frontend)**: E-learning platform with course
 delivery, progress tracking, and an admin dashboard for content and analytics.
 `Angular` `Node.js` `Express` `MongoDB` `TypeScript`
 
@@ -148,13 +148,13 @@ delivery, progress tracking, and an admin dashboard for content and analytics.
 
 ## Experience
 
-**Platform Engineer @ Klopotek** — *Jun 2026 – Present*
+**Platform Engineer @ Klopotek** | *Jun 2026 to Present*
 - Own the deployment platform that configures and ships **50+ applications** across Azure,
   private cloud, and on-premise environments
 - Built an automated monitoring and observability service for scheduled jobs, integrated with Jira
 - Automate the deployment lifecycle with Ansible, Linux, and Bash across heterogeneous environments
 
-**Senior Software Engineer & Scrum Master @ Murex** — *Jun 2021 – May 2026*
+**Senior Software Engineer & Scrum Master @ Murex** | *Jun 2021 to May 2026*
 - Built a **documentation RAG platform** over the internal wiki, making locally hosted models a
   viable option and cutting AI inference cost
 - Designed and deployed a global performance-metrics feature used by **3 major clients**
