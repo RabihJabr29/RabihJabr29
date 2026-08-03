@@ -112,6 +112,22 @@ it all into production.
 
 ---
 
+### 🤖 Multi-Agent Orchestrator — AI Agent Pipeline *(private)*
+
+> A Python CLI that coordinates five specialised AI agents — requirements, architect, builder,
+> tester, reviewer — into one pipeline that takes a spec through to reviewed code.
+
+- Provider-agnostic: one interface, with implementations for Claude, OpenAI, Gemini, Groq, and
+  local Ollama — so each agent runs on whichever model suits its role and budget
+- Agent roles, prompts, and provider assignments are declarative (YAML), so the pipeline is
+  reconfigurable without touching orchestration code
+- Feedback loop re-runs the builder when the reviewer flags critical issues, instead of emitting
+  known-bad output
+
+**Tech:** Python · Claude · OpenAI · Gemini · Groq · Ollama · YAML
+
+---
+
 <details>
 <summary><b>Earlier work</b></summary>
 
@@ -124,6 +140,10 @@ voting, view tracking, a reputation system, and prototyped AI-generated answer d
 **[Educate](https://github.com/RabihJabr29/Educate-Frontend)** — E-learning platform with course
 delivery, progress tracking, and an admin dashboard for content and analytics.
 `Angular` `Node.js` `Express` `MongoDB` `TypeScript`
+
+**LebaPrice** *(private)* — Scrapes five Lebanese electronics retailers on a schedule and compares
+live prices per product, with category browsing, search, and side-by-side comparison.
+`Next.js 16` `TypeScript` `MongoDB` `Mongoose` `Cheerio`
 
 </details>
 
