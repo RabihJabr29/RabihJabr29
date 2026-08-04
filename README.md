@@ -81,7 +81,7 @@ it all into production.
 
 ## Featured Projects
 
-### 📚 Documentation RAG Platform *(internal, built at Murex)*
+### 📚 Documentation RAG Platform _(internal, built at Murex)_
 
 > A Python retrieval system over a large internal wiki, letting engineering teams ask questions
 > against their own documentation.
@@ -111,7 +111,7 @@ it all into production.
 
 ---
 
-### 🏭 Factory Management System | Offline Desktop App *(freelance, private)*
+### 🏭 Factory Management System | Offline Desktop App _(freelance, private)_
 
 > A production desktop app I designed, built, and delivered single-handedly for a real
 > manufacturing client. Fully offline, single operator, no server to fall back on.
@@ -141,20 +141,21 @@ voting, view tracking, a reputation system, and prototyped AI-generated answer d
 delivery, progress tracking, and an admin dashboard for content and analytics.
 `Angular` `Node.js` `Express` `MongoDB` `TypeScript`
 
-
 </details>
 
 ---
 
 ## Experience
 
-**Platform Engineer @ Klopotek** | *Jun 2026 to Present*
+**Platform Engineer @ Klopotek** | _Jun 2026 to Present_
+
 - Own the deployment platform that configures and ships **50+ applications** across Azure,
   private cloud, and on-premise environments
 - Built an automated monitoring and observability service for scheduled jobs, integrated with Jira
 - Automate the deployment lifecycle with Ansible, Linux, and Bash across heterogeneous environments
 
-**Senior Software Engineer & Scrum Master @ Murex** | *Jun 2021 to May 2026*
+**Senior Software Engineer & Scrum Master @ Murex** | _Jun 2021 to May 2026_
+
 - Built a **documentation RAG platform** over the internal wiki, making locally hosted models a
   viable option and cutting AI inference cost
 - Designed and deployed a global performance-metrics feature used by **3 major clients**
@@ -162,20 +163,6 @@ delivery, progress tracking, and an admin dashboard for content and analytics.
 - E2E test suites that cut regression incidents to **under 1%**
 - CI/CD pipeline improvements that shortened the development cycle by **30%**
 - Mentored and onboarded **9 engineers**
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RabihJabr29&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RabihJabr29&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=RabihJabr29&theme=tokyonight&hide_border=true)
-
-</div>
 
 ---
 
